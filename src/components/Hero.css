@@ -9,7 +9,6 @@
   color: rgb(134, 9, 9);
 
   background: top / cover no-repeat url("../assets/images/main.png");
-  background-attachment: fixed;
 }
 
 .hero-overlay {

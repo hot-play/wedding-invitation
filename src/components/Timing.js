@@ -10,24 +10,20 @@ const Timing = () => {
           <h2 className="timing_title">Программа торжества</h2>
           <div className="timing_schedule">
             <div className="timing_item">
-              <span className="timing_time">10:15</span>
-              <span className="timing_event">Церемония в ЗАГСе</span>
+              <span className="timing_time">16:00</span>
+              <span className="timing_event">Сбор гостей</span>
             </div>
             <div className="timing_item">
-              <span className="timing_time">13:00</span>
-              <span className="timing_event">Сбор гостей в отеле</span>
+              <span className="timing_time">16:30</span>
+              <span className="timing_event">Торжественная церемония</span>
             </div>
             <div className="timing_item">
-              <span className="timing_time">14:00</span>
+              <span className="timing_time">17:00</span>
               <span className="timing_event">Начало банкета</span>
             </div>
             <div className="timing_item">
-              <span className="timing_time">18:30</span>
-              <span className="timing_event">Торт и бенгальские огни</span>
-            </div>
-            <div className="timing_item">
               <span className="timing_time">20:00</span>
-              <span className="timing_event">Окончание праздника</span>
+              <span className="timing_event">Окончание банкета</span>
             </div>
           </div>
         </div>

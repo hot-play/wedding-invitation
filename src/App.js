@@ -17,7 +17,6 @@ function App() {
       <Invitation />
       <Place />
       <Timing />
-      <DressCode />
       <Gifts />
       <Questionnaire />
     </div>
