@@ -50,11 +50,12 @@
 }
 
 .hero-date {
-  font-size: 1.8rem;
+  font-size: 6rem;
   margin: 1rem 0;
   font-family: 'Bona Nova SC', serif;
   position: relative;
   z-index: 3;
+  color: white;
 }
 
 .hero_decor {
@@ -105,4 +106,8 @@
     bottom: 10px;
     left: 10px;
   }
+}
+
+.red {
+  color: rgb(134, 9, 9);
 }
