@@ -6,11 +6,9 @@ const Hero = () => {
     <section className="hero" id="hero">
       <div className="hero-overlay">
         <div className="names-container">
-          <div className="name name-first">
-          Анастасия</div>
+          <div className="name name-first">Данил</div>
           <div className="ampersand">&</div>
-          <div className="name name-second">
-          Данил</div>
+          <div className="name name-second">Анастасия</div>
         </div>
         <div className='hero-date'>
           06.06.2026
