@@ -1,0 +1,172 @@
+.place {
+  padding: 40px 20px;
+  background: white;
+  position: relative;
+}
+
+.place_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.place_photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  position: relative;
+  margin-top: 32px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.place_photo-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.place_photo {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  display: block;
+
+  @media (max-width: 768px) {
+    height: 250px;
+  }
+}
+
+.place_map-button {
+  position: absolute;
+  bottom: 20px;
+  left: 70%;
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 165, 0, 0.95);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.place_map-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bona Nova SC', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  width: 100px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.place_title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 6rem;
+  color: rgb(134, 9, 9);
+  margin: 0 0 30px 0;
+  font-weight: normal;
+}
+
+.place_addresses {
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.place_address-text {
+  font-family: 'Bona Nova SC', serif;
+  font-size: 1.8rem;
+  color: rgb(134, 9, 9);
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .place {
+    padding: 30px 15px;
+  }
+  
+  .place_photos {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+  
+  .place_photo {
+    height: 250px;
+  }
+  
+  .place_map-button {
+    width: 90px;
+    height: 90px;
+    bottom: 12px;
+    left: 70%;
+  }
+  
+  .place_map-text {
+    font-size: 0.7rem;
+    width: 70px;
+  }
+  
+  .place_title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .place_address-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .c:\Users\Данил\Desktop\photo1.png-container{
+    padding-bottom: 0px;
+  }
+}
+
+.place_title {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.place_addresses {
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.place_map-button:hover::before {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+.place_on-map {
+  width: 12rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(134, 9, 9);
+  bottom: 0;
+  right: calc(50% - 6rem);
+  padding: 8px;
+}
+
+.place_on-map:hover {
+  opacity: 1;
+}
+
+.place_on-map-text {
+  font-size: 1rem;
+  color: white;
+} 
