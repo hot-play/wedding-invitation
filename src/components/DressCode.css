@@ -57,6 +57,10 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.dress-code_description_2 {
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
   .dress-code {
     padding: 60px 15px;

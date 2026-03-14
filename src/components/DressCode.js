@@ -4,14 +4,13 @@ import './DressCode.css';
 const DressCode = () => {
   const colors = [
     { code: '#e8b5b5', name: 'светло-розовый' },
-    { code: '#cf9e76', name: 'бежевый' },
-    { code: '#fea33bff', name: 'светло-оранжевый' },
-    { code: '#995115', name: 'приглушённый оранжевый' },
-    { code: '#a63030', name: 'алый' },
-    { code: '#7b0709ff', name: 'бордовый' },
-    { code: '#4d0001ff', name: 'шоколадный' },
-    { code: '#364230', name: 'оливковый' },
-    
+    { code: '#FFE4C4', name: 'бисквитный' },
+    { code: '#8ab1de', name: 'небесно-голубой' },
+    { code: '#FFBCD9', name: 'розовый' },
+    { code: '#B39F7A', name: 'кофе-с-молоком' },
+    { code: '#696969', name: 'серый' },
+    { code: '#755C48', name: 'чоколадный' },
+    { code: '#35170C', name: 'темно-коричневый' },
   ];
 
   return (
@@ -35,6 +34,9 @@ const DressCode = () => {
             </div>
           ))}
         </div>
+        <p className="dress-code_description dress-code_description_2">
+          Избегайте белого цвета
+        </p>
       </div>
     </section>
   );

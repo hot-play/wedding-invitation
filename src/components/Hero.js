@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="name name-second">Анастасия</div>
         </div>
         <div className='hero-date'>
-          06.06.2026
+          11.07.2026
         </div>
       </div>
     </section>

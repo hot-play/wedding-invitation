@@ -1,6 +1,6 @@
 import React from 'react';
 import './Place.css';
-import photo1 from '../assets/images/photo1.png';
+import photo1 from '../assets/images/photo2.png';
 
 const Place = () => {
   const handleMapClick = () => {
@@ -16,9 +16,9 @@ const Place = () => {
         {/* Адреса */}
         <div className="place_addresses">
           <p className="place_address-text">
-            Экоотель «Кедровый Остров»
+            База отдыха «Буревестник», коттедж «Атмосфера»
             <br />
-            Чемальский район, пос. Усть-Сема
+            СТ Сирень-1, 41
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const Place = () => {
               src={photo1} 
               className="place_photo"
             />
-            <a href="https://go.2gis.com/SbmL4" target="_blank">
+            <a href="https://2gis.ru/tomsk/firm/70000001062717991/84.988782%2C56.438318?m=84.989291%2C56.438316%2F18.97" target="_blank">
               <div className="place_on-map">
                 <p className="place_address-text place_on-map-text">
                   Посмотреть на карте

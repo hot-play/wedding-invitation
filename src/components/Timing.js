@@ -22,7 +22,7 @@ const Timing = () => {
               <span className="timing_event">Начало банкета</span>
             </div>
             <div className="timing_item">
-              <span className="timing_time">20:00</span>
+              <span className="timing_time">22:00</span>
               <span className="timing_event">Окончание банкета</span>
             </div>
           </div>
