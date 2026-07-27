@@ -1,6 +1,6 @@
 import React from 'react';
 import './Place.css';
-import photo1 from '../assets/images/photo1.png';
+import photo1 from '../assets/images/i.webp';
 
 const Place = () => {
   const handleMapClick = () => {
@@ -11,14 +11,25 @@ const Place = () => {
     <section id="place" className="place">
       <div className="place_container">
         {/* Заголовок */}
-        <h2 className="place_title">Место торжества</h2>
+        <h2 className="place_title">Церемония бракосочетания</h2>
+
+        {/* Адреса */}
+        <div className="place_addresses">
+          <p className="place_address-text">
+            Отдел ЗАГС №4 по г. Барнаулу
+            <br />
+            Улица Сухэ-Батора, 13
+          </p>
+        </div>
+
+        <h2 className="place_title place_title_2">Банкетный зал</h2>
         
         {/* Адреса */}
         <div className="place_addresses">
           <p className="place_address-text">
-            Экоотель «Кедровый Остров»
+            Дыхание Леса
             <br />
-            Чемальский район, пос. Усть-Сема
+            Улица Н. Ивлева, 46а
           </p>
         </div>
 

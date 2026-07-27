@@ -1,7 +1,6 @@
 .countdown-qr {
   padding: 32px 20px;
   position: relative;
-    background-color: rgb(134, 9, 9);
 }
 
 .countdown-qr_container {
@@ -30,7 +29,7 @@
 .countdown-qr_qr-title {
   font-family: 'Bona Nova SC', serif;
   font-size: 1.8rem;
-  color: white;
+  color: black;
   margin: 0 0 20px 0;
   font-weight: 400;
 }
@@ -56,7 +55,7 @@
 .countdown-qr_title {
   font-family: 'Great Vibes', cursive;
   font-size: 4.5rem;
-  color:  white;
+  color:  black;
   margin: 0 0 40px 0;
   font-weight: normal;
 }
@@ -86,7 +85,7 @@
   font-family: 'Bona Nova SC', serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: rgb(134, 9, 9);
+  color: black;
   line-height: 1;
   margin-bottom: 5px;
 }
@@ -94,7 +93,7 @@
 .countdown-qr_time-label {
   font-family: 'Bona Nova SC', cursive;
   font-size: 1.4rem;
-  color: rgb(134, 9, 9);
+  color: black;
   font-weight: 500;
 }
 

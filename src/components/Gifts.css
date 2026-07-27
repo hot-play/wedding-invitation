@@ -14,7 +14,7 @@
 .gifts_title {
   font-family: 'Great Vibes', cursive;
   font-size: 4.5rem;
-  color: rgba(134, 9, 9);
+  color: black;
   margin: 0 0 30px 0;
   font-weight: normal;
 }
@@ -22,7 +22,7 @@
 .gifts_description {
   font-family: 'Bona Nova SC', serif;
   font-size: 1.6rem;
-  color: rgba(134, 9, 9);
+  color: black;
   line-height: 1.6;
   margin: 0 0 50px 0;
   margin-left: auto;

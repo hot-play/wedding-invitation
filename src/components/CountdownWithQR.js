@@ -10,7 +10,7 @@ const CountdownWithQR = () => {
   });
 
   useEffect(() => {
-    const weddingDate = new Date('2026-06-06T10:16:00');
+    const weddingDate = new Date('2026-09-19T10:13:00');
     
     const calculateTimeLeft = () => {
       const difference = +weddingDate - +new Date();

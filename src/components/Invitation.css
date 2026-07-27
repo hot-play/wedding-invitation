@@ -16,7 +16,7 @@
   font-family: 'Bona Nova SC', serif;
   font-size: 4rem;
   font-weight: 700;
-  color: rgb(134, 9, 9);
+  color: black;
   margin: 0 0 2rem 0;
   line-height: 1.2;
 }
@@ -24,7 +24,7 @@
 .invitation_subheading {
   font-family: 'Great Vibes', cursive;
   font-size: 6rem;
-  color: rgb(134, 9, 9);
+  color: black;
   margin: 0 0 3rem 0;
   font-weight: normal;
   position: relative;
@@ -39,14 +39,14 @@
   transform: translateX(-50%);
   width: 200px;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgb(134, 9, 9), transparent);
+  background: linear-gradient(90deg, transparent, black, transparent);
 }
 
 .invitation_text {
   font-family: 'Bona Nova SC', serif;
   font-size: 1.5rem;
   font-weight: 400;
-  color: rgb(134, 9, 9);
+  color: black;
   line-height: 1.6;
   margin: 0;
   max-width: 600px;
@@ -93,7 +93,7 @@
   max-width: 720px;
   margin: auto;
   padding-top: 32px;
-  border: solid 2px rgb(134, 9, 9);
+  border: solid 2px black;
   border-radius: 32px;
   margin-top: 32px;
 }
@@ -101,7 +101,7 @@
 .calendar-title {
   font-family: 'Great Vibes', cursive;
   font-size: 6rem;
-  color: rgb(134, 9, 9);
+  color: black;
   font-weight: normal;
   position: relative;
   display: inline-block;
@@ -126,15 +126,15 @@
 }
 
 .calendar-head-cell {
-  border-top: solid 2px rgb(134, 9, 9);
-  border-bottom: solid 2px rgb(134, 9, 9);
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
   font-family: 'Bona Nova SC', serif;
   font-weight: 700;
 }
 
 .calendar-center-column {
-  border-left: solid 2px rgb(134, 9, 9);
-  border-right: solid 2px rgb(134, 9, 9);
+  border-left: solid 2px black;
+  border-right: solid 2px black;
 }
 
 .calendar-center-cell {

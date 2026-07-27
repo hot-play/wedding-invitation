@@ -14,7 +14,7 @@ const Invitation = () => {
       </div>
       <div className="calendar">
         <div className="calendar-title">
-          Июнь
+          Сентябрь
         </div>
         <div className="calendar-columns">
           <div className="calendar-column">
@@ -22,7 +22,7 @@ const Invitation = () => {
               Пятница
             </div>
             <div className="calendar-cell invitation_text">
-              5
+              18
             </div>
           </div>
           <div className="calendar-column calendar-center-column">
@@ -30,7 +30,7 @@ const Invitation = () => {
               Суббота
             </div>
             <div className="calendar-cell invitation_text calendar-center-cell">
-              6
+              19
             </div>
           </div>
           <div className="calendar-column">
@@ -38,7 +38,7 @@ const Invitation = () => {
               Воскресенье
             </div>
             <div className="calendar-cell invitation_text">
-              7
+              20
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 100vh;
+  height: 125vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,7 @@
   overflow: hidden;
   color: rgb(134, 9, 9);
 
-  background: top / cover no-repeat url("../assets/images/main.png");
+  background: center / cover no-repeat url("../assets/images/main.webp");
 }
 
 .hero-overlay {

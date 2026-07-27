@@ -3,15 +3,10 @@ import './DressCode.css';
 
 const DressCode = () => {
   const colors = [
-    { code: '#e8b5b5', name: 'светло-розовый' },
-    { code: '#cf9e76', name: 'бежевый' },
-    { code: '#fea33bff', name: 'светло-оранжевый' },
-    { code: '#995115', name: 'приглушённый оранжевый' },
-    { code: '#a63030', name: 'алый' },
-    { code: '#7b0709ff', name: 'бордовый' },
-    { code: '#4d0001ff', name: 'шоколадный' },
-    { code: '#364230', name: 'оливковый' },
-    
+    { code: '#3A2B24', name: 'коричневый' },
+    { code: '#A38E77', name: 'светло-коричневый' },
+    { code: '#000000', name: 'черный' },
+    { code: '#FFFDF1', name: 'белый' }
   ];
 
   return (

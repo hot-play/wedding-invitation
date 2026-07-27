@@ -16,8 +16,9 @@ function App() {
       <CountdownWithQR/>
       <Invitation />
       <Place />
-      <Timing />
+      <DressCode />
       <Gifts />
+      <Timing />
       <Questionnaire />
     </div>
   );
